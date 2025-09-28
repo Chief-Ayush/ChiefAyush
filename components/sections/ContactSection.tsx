@@ -42,7 +42,7 @@ export const ContactSection: React.FC = () => {
         >
           <div className="relative mb-10">
             <p className="font-body text-gray-300 text-lg leading-relaxed font-light tracking-wide">
-              I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.
+              I&apos;m always open to discussing new opportunities, interesting projects, or just having a chat about technology.
             </p>
           </div>
 

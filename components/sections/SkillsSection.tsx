@@ -8,7 +8,7 @@ import { useInView } from '@/hooks/useInView';
 
 export const SkillsSection: React.FC = () => {
   const skills = getSkills();
-  const [ref, isInView] = useInView<HTMLElement>();
+  const [ref] = useInView<HTMLElement>();
 
   return (
     <section

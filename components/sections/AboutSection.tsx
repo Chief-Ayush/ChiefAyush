@@ -8,7 +8,7 @@ import { useInView } from '@/hooks/useInView';
 
 export const AboutSection: React.FC = () => {
   const personal = getPersonalInfo();
-  const [ref, isInView] = useInView<HTMLElement>();
+  const [ref] = useInView<HTMLElement>();
 
   return (
     <motion.section 

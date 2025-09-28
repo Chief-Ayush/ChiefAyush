@@ -18,14 +18,11 @@ export const HeroSection: React.FC = () => {
 
   // If personal.avatar looks like a local path, extract the filename to request via API
   const avatarFileName = personal.avatar ? personal.avatar.split('/').pop() : undefined;
-  const cacheBust = typeof window !== 'undefined' && process.env.NODE_ENV !== 'production' ? `&t=${Date.now()}` : '';
-  const apiAvatar = `/api/avatar${avatarFileName ? `?file=${encodeURIComponent(avatarFileName)}${cacheBust}` : ''}`;
+  const apiAvatar = `/api/avatar${avatarFileName ? `?file=${encodeURIComponent(avatarFileName)}` : ''}`;
 
   const isRemote = typeof personal.avatar === 'string' && /^https?:\/\//i.test(personal.avatar);
   const isPublicImage = typeof personal.avatar === 'string' && personal.avatar.startsWith('/image/');
-  const publicWithBust = isPublicImage && typeof personal.avatar === 'string'
-    ? `${personal.avatar}${typeof window !== 'undefined' && process.env.NODE_ENV !== 'production' ? `?t=${Date.now()}` : ''}`
-    : personal.avatar;
+  const publicWithBust = personal.avatar;
   const isDataImage = typeof personal.avatar === 'string' && personal.avatar.startsWith('/data/');
 
   // Prefer valid sources and avoid known 404 (/data/*) by routing through our API first

@@ -7,7 +7,7 @@ import { Logo } from '@/components/ui/Logo';
 import { getPersonalInfo } from '@/data/portfolio-data';
 
 export const Navbar: React.FC = () => {
-  const personal = getPersonalInfo();
+  getPersonalInfo();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
@@ -46,7 +46,7 @@ export const Navbar: React.FC = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          {navItems.map((item, index) => (
+          {navItems.map((item) => (
             <motion.a
               key={item.label}
               className="relative font-mono text-sm text-gray-300 hover:text-white transition-all duration-300 group px-2 py-1"

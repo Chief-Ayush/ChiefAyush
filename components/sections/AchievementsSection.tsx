@@ -8,7 +8,7 @@ import { useInView } from '@/hooks/useInView';
 
 export const AchievementsSection: React.FC = () => {
   const achievements = getAchievements();
-  const [ref, isInView] = useInView<HTMLElement>();
+  const [ref] = useInView<HTMLElement>();
 
   return (
     <section id="achievements" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8" ref={ref}>

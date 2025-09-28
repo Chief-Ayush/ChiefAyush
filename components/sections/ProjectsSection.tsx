@@ -9,7 +9,7 @@ import { useInView } from '@/hooks/useInView';
 
 export const ProjectsSection: React.FC = () => {
   const projects = getProjects();
-  const [ref, isInView] = useInView<HTMLElement>();
+  const [ref] = useInView<HTMLElement>();
 
   return (
     <section id="projects" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8" ref={ref}>

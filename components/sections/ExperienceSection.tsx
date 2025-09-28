@@ -9,7 +9,7 @@ import { useInView } from '@/hooks/useInView';
 
 export const ExperienceSection: React.FC = () => {
   const experiences = getExperience();
-  const [ref, isInView] = useInView<HTMLElement>();
+  const [ref] = useInView<HTMLElement>();
 
   return (
     <section 
