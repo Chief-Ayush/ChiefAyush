@@ -77,8 +77,8 @@ const ClassicStarField: React.FC = () => {
           animate={{
             opacity: [0.5, 1, 0.5],
             scale: [1, 1.8, 1],
-            x: [0, Math.random() * 40 - 20],
-            y: [0, Math.random() * 40 - 20],
+              x: [0, (typeof window !== 'undefined' ? Math.random() * 40 - 20 : 0)],
+              y: [0, (typeof window !== 'undefined' ? Math.random() * 40 - 20 : 0)],
           }}
           transition={{
             duration: 6 + Math.random() * 3,
@@ -106,8 +106,8 @@ const ClassicStarField: React.FC = () => {
             opacity: 0,
           }}
           animate={{
-            x: [0, typeof window !== 'undefined' ? window.innerWidth : 1920],
-            opacity: [0, 1, 0],
+              x: [0, (typeof window !== 'undefined' ? window.innerWidth : 1920)],
+              opacity: [0, 1, 0],
           }}
           transition={{
             duration: 3 + Math.random() * 2,
