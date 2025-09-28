@@ -1,0 +1,164 @@
+{
+  "personal": {
+    "name": "Ayush Attarde",
+    "title": "Backend Specialist & AI/ML Enthusiast",
+    "description": "Passionate Backend Developer specializing in scalable systems, microservices architecture, and AI/ML integration. Dedicated to crafting robust, high-performance applications that drive innovation and user satisfaction.",
+    "subtitle": "Building the future, one line of code at a time. Transforming complex challenges into elegant solutions through cutting-edge technology and innovative thinking.",
+    "email": "attardeayush@gmail.com",
+    "location": "Mumbai, India",
+    "avatar":"/data/image/ayush_image.jpeg"
+  },
+  "experience": [
+    {
+      "title": "Senior Backend Developer",
+      "company": "TechCorp Solutions",
+      "period": "2022 - Present",
+      "description": "Led development of microservices architecture serving 1M+ users. Implemented AI-powered recommendation systems and optimized database performance by 60%.",
+      "technologies": ["Node.js", "Python", "PostgreSQL", "Redis", "Docker", "AWS"]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "InnovateLab",
+      "period": "2020 - 2022",
+      "description": "Developed scalable web applications using modern frameworks. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+      "technologies": ["React", "Express.js", "MongoDB", "GraphQL", "TypeScript"]
+    },
+    {
+      "title": "Software Developer Intern",
+      "company": "StartupHub",
+      "period": "2019 - 2020",
+      "description": "Built REST APIs and contributed to frontend development. Gained experience in agile development and version control practices.",
+      "technologies": ["JavaScript", "PHP", "MySQL", "Git", "Linux"]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend Development",
+      "gradient": "from-blue-500 to-blue-700",
+      "skills": [
+        { "name": "Node.js", "level": 95 },
+        { "name": "Python", "level": 90 },
+        { "name": "Express.js", "level": 88 },
+        { "name": "FastAPI", "level": 85 },
+        { "name": "GraphQL", "level": 82 }
+      ]
+    },
+    {
+      "category": "Database & Storage",
+      "gradient": "from-green-500 to-green-700",
+      "skills": [
+        { "name": "PostgreSQL", "level": 90 },
+        { "name": "MongoDB", "level": 88 },
+        { "name": "Redis", "level": 85 },
+        { "name": "Elasticsearch", "level": 80 }
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "gradient": "from-purple-500 to-purple-700",
+      "skills": [
+        { "name": "AWS", "level": 88 },
+        { "name": "Docker", "level": 90 },
+        { "name": "Kubernetes", "level": 78 },
+        { "name": "CI/CD", "level": 82 }
+      ]
+    },
+    {
+      "category": "AI/ML & Data",
+      "gradient": "from-orange-500 to-red-500",
+      "skills": [
+        { "name": "TensorFlow", "level": 85 },
+        { "name": "PyTorch", "level": 80 },
+        { "name": "Scikit-learn", "level": 88 },
+        { "name": "Pandas", "level": 90 }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI-Powered Analytics Platform",
+      "description": "Built a comprehensive analytics platform using machine learning algorithms to provide real-time insights for e-commerce businesses.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500",
+      "technologies": ["Python", "TensorFlow", "FastAPI", "PostgreSQL", "Redis"],
+      "github": "https://github.com/ayushattarde/analytics-platform",
+      "live": "https://analytics-demo.vercel.app",
+      "featured": true
+    },
+    {
+      "title": "Microservices E-commerce Backend",
+      "description": "Designed and implemented a scalable microservices architecture for an e-commerce platform handling 100K+ daily transactions.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500",
+      "technologies": ["Node.js", "Express", "MongoDB", "Docker", "Kubernetes"],
+      "github": "https://github.com/ayushattarde/ecommerce-backend",
+      "live": "https://ecommerce-api.herokuapp.com",
+      "featured": true
+    },
+    {
+      "title": "Real-time Chat Application",
+      "description": "Developed a real-time chat application with WebSocket support, featuring message encryption and file sharing capabilities.",
+      "image": "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=500",
+      "technologies": ["Socket.io", "React", "Node.js", "PostgreSQL"],
+      "github": "https://github.com/ayushattarde/realtime-chat",
+      "live": "https://chat-app-demo.vercel.app",
+      "featured": false
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "date": "2023",
+      "credentialId": "AWS-SAA-12345",
+      "description": "Demonstrated expertise in designing distributed applications and systems on AWS platform.",
+      "image": "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+    },
+    {
+      "title": "Google Cloud Professional Developer",
+      "issuer": "Google Cloud",
+      "date": "2023",
+      "credentialId": "GCP-PD-67890",
+      "description": "Validated skills in developing scalable applications on Google Cloud Platform.",
+      "image": "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/12345"
+    },
+    {
+      "title": "MongoDB Certified Developer",
+      "issuer": "MongoDB Inc.",
+      "date": "2022",
+      "credentialId": "MDB-DEV-54321",
+      "description": "Certified in MongoDB database design, development, and administration.",
+      "image": "https://images.credly.com/size/340x340/images/e70a2e5a-8c01-4f56-9e8a-19a57a9c26e6/MongoDB_Logo_FullColorBlack_RGB.png"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Open Source Contributor",
+      "description": "Active contributor to major open-source projects with 500+ GitHub stars across repositories",
+      "date": "2023",
+      "type": "contribution"
+    },
+    {
+      "title": "Tech Conference Speaker",
+      "description": "Delivered keynote presentation on 'Scalable Backend Architecture' at DevCon 2023",
+      "date": "2023",
+      "type": "speaking"
+    },
+    {
+      "title": "Hackathon Winner",
+      "description": "First place in National AI/ML Hackathon for innovative healthcare solution",
+      "date": "2022",
+      "type": "competition"
+    },
+    {
+      "title": "Performance Optimization",
+      "description": "Improved system performance by 300% through database optimization and caching strategies",
+      "date": "2022",
+      "type": "technical"
+    }
+  ],
+  "social": {
+    "github": "https://github.com/Chief-Ayush",
+    "linkedin": "https://www.linkedin.com/in/ayush-attarde-3a394130a/",
+    "twitter": "https://x.com/AttardeAyush",
+    "email": "attardeayush@gmail.com"
+  }
+}
